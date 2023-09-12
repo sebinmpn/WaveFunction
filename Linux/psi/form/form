@@ -1,0 +1,12 @@
+# data file for the Fltk User Interface Designer (fluid)
+version 1.0308
+header_name {.h}
+code_name {.cxx}
+widget_class UserInterface {open
+  xywh {465 310 1020 510} type Double hide
+} {
+  Fl_Button {} {
+    label button selected
+    xywh {55 90 70 20}
+  }
+}
