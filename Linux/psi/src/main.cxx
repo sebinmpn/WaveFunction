@@ -12,8 +12,9 @@ int main()
 	std::ofstream fout ("Wave.csv");
 	for(auto point : wave)
 	{
-		std::cout << point << "\n";
-		fout << point << '\n';
+		fout << point.p << ", "
+			 << point.x << ", "
+			 << point.dx << '\n';
 	}
 	fout.close();
 
