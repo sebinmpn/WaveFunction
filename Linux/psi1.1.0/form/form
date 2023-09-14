@@ -1,0 +1,53 @@
+# data file for the Fltk User Interface Designer (fluid)
+version 1.0308
+header_name {.h}
+code_name {.cxx}
+widget_class UserInterface {
+  label {Phi for Anna} open
+  xywh {367 231 1365 575} type Double labelfont 3 resizable visible
+} {
+  Fl_Button {} {
+    label Plot
+    xywh {75 480 95 50} shortcut 0xff0d color 25 selection_color 88 labeltype EMBOSSED_LABEL labelfont 1 labelsize 20 labelcolor 80
+  }
+  Fl_Input {} {
+    label h
+    xywh {50 55 100 30}
+  }
+  Fl_Input {} {
+    label m
+    xywh {50 100 95 35}
+  }
+  Fl_Input {} {
+    label L
+    xywh {50 150 100 35}
+  }
+  Fl_Input {} {
+    label n
+    xywh {50 205 95 35}
+  }
+  Fl_Box {} {
+    label wave
+    xywh {225 3 1100 553} resizable
+  }
+  Fl_Input {} {
+    label x1
+    xywh {30 390 65 35}
+  }
+  Fl_Input {} {
+    label x2
+    xywh {125 390 60 35}
+  }
+  Fl_Input {} {
+    label {no of points}
+    xywh {110 335 70 35}
+  }
+  Fl_Round_Button {} {
+    label R
+    xywh {30 440 70 15} down_box ROUND_DOWN_BOX
+  }
+  Fl_Round_Button {} {
+    label Im
+    xywh {105 440 70 15} down_box ROUND_DOWN_BOX
+  }
+}
